@@ -1,0 +1,87 @@
+
+#products_search {
+    padding: 11px 10px; 
+    margin: 20px 0 0 800px; 
+    width: calc(50% - 10px); 
+}
+
+#products_table {
+    width: 100%;
+}
+
+.products_tr {
+    text-align: center;
+    height: 50px;
+    border-bottom: solid 0.5px rgb(162, 161, 161);
+}
+
+.products_tr:nth-child(even) {
+    background-color: rgb(227, 226, 226);
+}
+#div_for_products_tab{
+    height: 65px;
+    width: 100%;
+    border: none;
+    background-color: rgb(110, 110, 238);
+    
+}
+#ul_for_products_tab{
+    display: flex;
+    gap: 150px;
+    margin-top: 10px;
+}
+#li_for_Pedagantyada_Assets{
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+
+#li_for_Pedagantyada_Assets:hover{
+    cursor: pointer;
+}
+#li_for_Seethammadhara_Assets{
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+#li_for_Seethammadhara_Assets:hover{
+    cursor: pointer;
+}
+.show_div{
+    display: block;
+}
+.hide_div{
+    display: none;
+}
+.correct-entity{
+    font-size: 35px;
+}
+
+.wrong-entity{
+    font-size: 35px;
+    
+}
+
+
+@media (max-width: 768px) {
+    #products_search {
+        margin: 20px 0 0 20px;
+        width: calc(100% - 40px); 
+    }
+
+    .products_tr {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px; 
+        border-bottom: none; 
+        padding: 10px;
+    }
+
+    .products_tr:nth-child(even) {
+        background-color: transparent; 
+    }
+
+    th, td {
+        text-align: left; 
+    }
+}

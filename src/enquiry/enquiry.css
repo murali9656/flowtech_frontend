@@ -1,0 +1,314 @@
+
+
+.show_div{
+    display: block;
+}
+.hide_div{
+    display: none;
+}
+
+#enquiry_tab_ul{
+    display: flex;
+    gap: 150px;
+    margin: 30px 0 0 50px;
+    list-style-type: none;
+}
+
+.enquiry_tab_li{
+    font-weight: bold;
+}
+.enquiry_tab_li:hover{
+    cursor: pointer;
+}
+
+#enquiry_maindiv{
+    width: 200%;
+    height: auto;
+    border: none;
+    margin: 20px 0 0 20px;
+    overflow-x: scroll;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 2px 3px 10px ;
+}
+
+.enquiry_th{
+    width: auto;
+    border-bottom: solid 0.5px rgb(192, 189, 189);
+    height: 50px;
+    text-align: center;
+}
+
+.enquiry_td{
+    border-bottom: solid 0.5px rgb(192, 189, 189);
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+#enquiry_table{
+    overflow-x: scroll;
+    
+}
+
+#add_enquiry_button{
+    padding: 4px 10px;
+    margin: 10px 0 10px 19%;
+    background-color: rgb(73, 73, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#enquiry_search_bar{
+  height: 41px;
+  width: 10%;
+  margin-left: 250px;
+  border-radius: 10px;
+}
+#enquiry_search_bar::placeholder{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+tr:nth-child(even){
+  background-color: rgb(229, 227, 227);
+}
+tr:hover{
+  background-color: rgb(229, 227, 227);
+}
+
+.enquiry_edit_btn{
+  padding: 7px 20px;
+  background-color: rgb(200, 200, 90);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0 3px 0 ;
+}
+.enquiry_update_btn{
+  padding: 7px 20px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0 3px 0 ;
+}
+
+
+
+.enquiry_view_btn{
+  padding: 7px 20px;
+  background-color: rgb(131, 131, 236);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0 3px 0 ;
+}
+
+.enquiry_delete_btn{
+  padding: 7px 20px;
+  background-color: rgb(180, 94, 94);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0 3px 0 ;
+}
+
+.enquiry_edit_btn:hover {
+  background-color: yellow;
+}
+
+.enquiry_view_btn:hover {
+  background-color: blue;
+}
+
+.enquiry_delete_btn:hover {
+  background-color: red;
+}
+
+.buttons_div{
+  display: flex;
+  gap:5px;
+  justify-content: space-around;
+}
+
+.open-enquiry{
+  font-size: 24px;
+  text-decoration: underline 3px green;
+}
+
+.close-enquiry{
+  font-size: 24px;
+}
+
+
+
+
+
+/* Default styles */
+#Enquiry_grid_div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .enquriy_label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .enquiry_span {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+   #Enquiry_grid_div{
+    display: none;
+  }
+
+
+  .grid_products_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.grid_products_table th,
+.grid_products_table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Responsive CSS for smaller screens */
+@media only screen and (max-width: 600px) {
+  /* Make table cells display block for better responsiveness */
+  .grid_products_table th,
+  .grid_products_table td {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Hide table header */
+  .grid_products_table thead {
+    display: none;
+  }
+
+  /* Adjust table row layout */
+  .grid_products_table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .grid_products_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .grid_products_table th,
+  .grid_products_table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Responsive CSS for smaller screens */
+  @media only screen and (max-width: 600px) {
+    /* Make table cells display block for better responsiveness */
+    .grid_products_table th,
+    .grid_products_table td {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* Hide table header */
+    .grid_products_table thead {
+      display: none;
+    }
+  
+    /* Adjust table row layout */
+    .grid_products_table tr {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}
+  
+  /* Media query for tablets */
+  @media only screen and (max-width: 768px) {
+
+    #enquiry_maindiv{
+            width: 92%;
+            margin: 0 4% 0 4%;
+
+    }
+
+    #div_spans{
+        height: auto;
+        width: 100px;
+        border: solid;
+    }
+
+    #enquiry_table{
+           display: none;
+    }
+
+  
+
+    #Enquiry_grid_div {
+      margin: 2% 2% 12% 2%;
+      padding: 10px;
+      display: block;
+    }
+    
+    .enquriy_label {
+      font-size: 14px;
+       
+    }
+    
+    .enquiry_span {
+      font-size: 14px;
+    }
+    .enquiry_content{
+      display: inline-block;
+      margin: 20px;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    .enquriy_label {
+      font-size: 12px;
+      display: inline;
+    }
+    
+    .enquiry_span {
+      font-size: 12px;
+    }
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .enquiry_edit_btn,
+    .enquiry_view_btn,
+    .enquiry_delete_btn {
+      padding: 1px 10px;
+      font-size: 12px; /* Adjust font size */
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    .enquiry_edit_btn,
+    .enquiry_view_btn,
+    .enquiry_delete_btn {
+      padding: 1px 5px;
+      font-size: 10px; /* Further adjust font size */
+    }
+  }

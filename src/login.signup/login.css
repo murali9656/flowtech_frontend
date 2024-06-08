@@ -1,0 +1,150 @@
+/* Base styles */
+#userlogin_div {
+    height: 70px;
+    width: 90%;
+    max-width: 400px;
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5px;
+    margin: 70px auto 0;
+    background-color: white;
+    display: flex;
+    
+}
+
+#user_login_span {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(41, 41, 182);
+    margin: 20px 0 0 10px;
+}
+
+#usericon_div {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(41, 41, 182);
+    margin: 10px 0 0 20px;
+}
+
+#person_icon {
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin: 10px 0 0 10px;
+}
+
+#user_login_div {
+    height: 250px;
+    width: 90%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 20px auto 0;
+    background-color: white;
+}
+
+.login_input {
+    height: 40px;
+    width: 85%;
+    margin: 20px 0 0 30px;
+    border: solid 0.3px gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#Remember_me_chechbox {
+    margin-left: 10%;
+    
+    
+}
+
+#remember_text {
+    font-weight: 500;
+    color: rgb(152, 151, 151);
+}
+
+#reset_password {
+    margin-left: 15%;
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#show_hide_login {
+    margin: 25px 0 0 -35px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+#show_hide_login:hover{
+    color: rgb(41, 41, 182);
+}
+
+#login_btn {
+    height: 40px;
+    width: 85%;
+    margin: 20px 0 0 30px;
+    background-color: rgb(41, 41, 182);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#login_btn:hover{
+    background-color: rgb(98, 98, 242);
+    box-shadow: 1px 1px 10px black;
+}
+
+#link_to_register {
+    height: 60px;
+    width: 50%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+    margin: 25px auto;
+}
+
+#link_to_signup_btn {
+    height: 35px;
+    width: 110px;
+    margin-left: 65%;
+    margin-top: -10px;
+    background-color: rgb(18, 187, 18);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s
+}
+#link_to_signup_btn:hover{
+    background-color: green;
+    box-shadow: 1px 1px 10px black;
+}
+
+#dont_have_an_account {
+    margin-left: 10%;
+    font-weight: 600;
+    color: rgb(164, 163, 163);
+    width: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+    #userlogin_div, #user_login_div, #link_to_register {
+        width: 90%;
+    }
+
+    #link_to_signup_btn {
+        margin-left: 55%;
+    }
+}

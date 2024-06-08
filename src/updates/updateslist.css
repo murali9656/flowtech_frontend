@@ -1,0 +1,102 @@
+.seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:400; color:#222222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+    
+    .seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #6443c5;
+        border-top: 1px solid #6443c5;
+        height: 5px;
+      background-color:#f8f8f8;
+    }
+    #updateslist-documents-download{
+        padding: 8px 15px;
+        background-color:#6443c5;
+        color: white;
+        font-weight: 400;
+        border: none;
+        border-radius: 7px;
+        transition: ease-in 0.5s;
+    }
+
+    #updateslist-documents-delete{
+        padding: 8px 15px;
+        background-color:#bd3c3c;
+        color: white;
+        font-weight: 400;
+        border: none;
+        border-radius: 7px;
+        transition: ease-in 0.5s;
+        
+    }
+
+    #updateslist-documents-download:hover{
+        background-color: #14053f;
+        
+    }
+
+    #updateslist-documents-delete:hover{
+        background-color: #670707;
+    }
+
+
+    #updatelist-table-div{
+        display: block;
+    }
+
+    #updatelist-grids-div{
+        display: none;
+    }
+
+    @media only screen and (max-width:470px){
+        #updatelist-table-div{
+            display: none;
+        }
+        #updatelist-grids-div{
+            display: block;
+        }
+
+        #updates-grid-container{
+            height: 300px;
+            max-width: 95%;
+            border: none;
+            border-radius: 7px;
+            background-color: rgb(252, 248, 248);
+            margin: 10px 2.5% 20px 2.5%;
+            box-shadow: 7px 7px 5px rgb(202, 199, 199);
+        }
+
+        .updates-divs{
+            display: inline-block;
+            margin:20px;
+        }
+
+        #updates-grid-download{
+            padding: 6px 11px;
+            background-color:#6443c5;
+            color: white;
+            font-weight: 400;
+            border: none;
+            border-radius: 7px;
+            transition: ease-in 0.5s;
+        }
+
+        #updates-grid-delete{
+            padding: 4px 10px;
+            background-color:#bd3c3c;
+            color: white;
+            font-weight: 400;
+            border: none;
+            border-radius: 7px;
+        }
+    }  
+    

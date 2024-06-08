@@ -1,0 +1,186 @@
+/* Default styles */
+#csvdiv {
+    height: 350px;
+    width: 43%;
+    border: none;
+    border-radius: 10px;
+    margin: 1% 0 0 30%;
+    box-shadow: 2px 6px 19px -2px rgba(0, 0, 0, 0.2);
+}
+
+#inputdiv {
+    height: 200px;
+    width: 70%;
+    border: 4px solid rgb(193, 189, 189);
+    margin: 25px 0 0 17%;
+}
+
+.addproducts_lable {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 20px; /* Change margin from shorthand */
+}
+
+#csvspan {
+    font-weight: bold;
+    color: rgb(167, 165, 165);
+    margin-left: 90px; /* Change margin from shorthand */
+}
+
+#csvbtn {
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin: 10px auto; /* Center horizontally */
+    display: block; /* Ensure it's block-level for auto margin */
+    font-weight: bold;
+}
+
+#csvarrow2 {
+    margin-left: -95px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#div_for_stockpoint {
+    height: 100px;
+    width: 700px;
+    border: none;
+    box-shadow: 1px 10px 10px rgb(224, 222, 222);
+    margin: 40px 430px; /* Center the block horizontally */
+}
+
+#stockpoint_h4 {
+    margin: 10px 0 0 30px;
+    color: blue;
+    font-weight: 600;
+}
+
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background-color: blue;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radio-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    #div_for_stockpoint {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin: 50px auto; /* Center the block horizontally */
+        padding: 0 15px; /* Add padding for smaller screens */
+        /* display: flex;
+        flex-direction: column;
+        gap: 10px; */
+    }
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    #csvdiv {
+        width: 80%;
+        margin: 10% auto;
+    }
+
+    #inputdiv {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .addproducts_lable {
+        margin-left: 10px;
+    }
+
+    #csvspan {
+        margin-left: 50px;
+    }
+
+    #csvbtn {
+        margin-top: 10px;
+    }
+
+    #csvarrow2 {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #csvdiv {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    #inputdiv {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .addproducts_lable {
+        margin-left: 10px;
+    }
+
+    #csvspan {
+        margin-left: 30px;
+    }
+
+    #csvbtn {
+        margin-top: 10px;
+    }
+
+    #csvarrow2 {
+        margin-left: -30px;
+    }
+}

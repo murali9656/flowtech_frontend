@@ -1,0 +1,108 @@
+#maindiv-for-comapnyedit{
+    height: 50%;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: 7% 0 0 25% ;
+    display: flex;
+    animation: editdiv 1s 1;
+}
+
+ @keyframes editdiv{
+    from{
+        margin-top: -5%;
+        opacity: 0;
+    }
+    to{
+        margin-top: 7%;
+        opacity: 1;
+    }
+ }
+#companyedit-label-div{
+    height: 80%;
+    width: 30%;
+    border: none;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+}
+#companyedit-input-div{
+    height: 80%;
+    width: 50%;
+    border: none;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.companyedit-input{
+    height: 50px;
+    width: 440px;
+    border: .5px solid grey;
+    border-radius: 6px;
+}
+#companyedit-btn{
+    height: 55px;
+    width: 300px;
+    margin: 440px 0 10px -350px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(141, 141, 252);
+    color: white;
+    font-weight: bold;
+    transition: .5s ease-in;
+}
+
+#companyedit-btn:hover{
+    background-color: blue;
+}
+
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    #maindiv-for-comapnyedit {
+        width: 90%; /* Adjusting width for smaller screens */
+        margin: 90px 0 0 5%; /* Centering horizontally */
+        height: auto;
+        display: flex;
+    }
+
+     #companyedit-label-div{
+          width: 30%;
+          text-align: center;
+          margin-top: 0px;
+     }
+    
+   #companyedit-input-div {
+        width: 70%; /* Setting width to full for smaller screens */
+        text-align: center; /* Centering text */
+        margin-top:30px; /* Adjusting top margin */
+    }
+    .companyedit-input {
+        width: 90%;
+    }
+    #companyedit-btn {
+        width: 40%; /* Adjusting button width */
+        margin: 440px 20px 30px -300px; /* Centering button */
+        transition: 1s ease-in-out;
+        background-color: rgb(177, 181, 255);
+    }
+    #companyedit-btn:hover{
+        background-color: blue;
+    }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #maindiv-for-comapnyedit {
+        width: 80%;
+        margin: 50px 0 0 80px;
+    }
+
+    .companyedit-input {
+        width: 100%;
+    }
+}

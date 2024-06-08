@@ -1,0 +1,389 @@
+#add_enquiry_header{
+    font-size: x-large;
+    font-weight: 500;
+    margin: 10px 0 0 205px;
+    color: rgb(41, 41, 182);
+}
+
+
+#addnew_enquiry_div{
+    height: auto;
+    width: 860px;
+    border: none;
+    box-shadow: 1px 1px 10px grey;
+    background-color: white;
+    margin: 30px 0 0 200px;
+  
+}
+
+.addenquiry_inputs{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 50px;
+    border: solid 2px  rgb(161, 159, 159);
+    border-radius: 5px ;
+    display: inline-block
+}
+.addenquiry_inputs_gst{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 126px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_person{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 47px;
+    border: solid 2px  rgb(161, 159, 159);
+    border-radius: 5px ;
+    display: inline-block
+}
+
+.addenquiry_inputs_contact_number{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 37px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_city{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 116px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+
+.addenquiry_inputs_state{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 105px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_enquiry_source{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 48px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_sector{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 107px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_stage{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 111px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_product_category{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 28px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+    /* z-index: 1; */
+}
+
+.addenquiry_inputs_products {
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 94px;
+    border-radius: 5px;
+    display: inline-block;
+    border: solid 2px rgb(161, 159, 159);
+    z-index: 2; /* Increase z-index to bring it forward */
+}
+.addenquiry_inputs_date{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 42px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_inputs_remarks{
+    height: 40px;
+    width: 490px;
+    margin: 20px 0 0 92px;
+    border-radius: 5px ;
+    display: inline-block;
+    border: solid 2px  rgb(161, 159, 159);
+}
+.addenquiry_label{
+    margin-left: 40px;
+   
+}
+#enquiry_table1 {
+    border: solid 2px rgb(161, 159, 159);
+    width: 90%;
+    height: auto;
+    margin: 70px 0 0 50px;
+    border-collapse: collapse;
+    text-align: center;
+    z-index: 3; /* Keep z-index lower to keep it behind the input box */
+}
+
+.add_enquiry_row{
+    border: solid 0.3px gray;
+    padding: 2px 5px;
+
+}
+.add_enquiry_row:hover{
+    background-color: white;
+}
+.add_enquiry_row:nth-child(even){
+    background-color: white;
+}
+
+.product_add_input{
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+
+#csvdiv{
+    height: 300px;
+    width: 43%;
+    border: none;
+    border-radius: 10px;
+    margin: 10% 0 0 30%;
+    box-shadow: 2px 6px 19px -2px rgba(0, 0, 0, 0.2);;
+}
+
+#csvlable{
+    font-weight: bold;
+    margin: 50px 0 0 100px;
+}
+
+
+#csvarrow{
+    text-decoration: none;
+}
+#csvh2{
+  transform: translate(10px,20px);
+  color: blue;
+}
+#inputdiv1{
+    height: 150px;
+    width: 60%;
+    border: 4px solid rgb(193, 189, 189);
+    margin: 20px 0 0 24%;
+}
+#file_label {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin: 0 0 0 20px;
+}
+
+#csvspan1{
+    font-weight: bold;
+    color:rgb(167, 165, 165);
+    margin: 0 0 0 90px;
+    
+    
+}
+
+#csvbtn{
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin: 10px 0 0 38%;
+    font-weight: bold;
+}
+
+#csvarrow2{
+   margin-left: -95px;
+   color: white;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#add-enquiry-submit-btn{
+   padding: 10px 49px;
+   margin: 1px 0 70px 345px; 
+   background-color: rgb(41, 41, 182);
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   transition: 0.3s;
+}
+
+#add-enquiry-submit-btn:hover{
+    background-color: rgb(98, 98, 242);
+    box-shadow: 1px 1px 10px black;
+}
+
+#addcompany_div{
+ 
+    margin: -52px 0 0 710px;
+    
+   
+}
+
+#addcompany_submit{
+    height: 45px;
+    width: 150px;
+    margin: 10px 0 0 38%;
+    background-color: rgb(41, 41, 182);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+#addcompany_submit:hover{
+    background-color: rgb(98, 98, 242);
+    box-shadow: 1px 1px 10px black;
+}
+
+#add_company_span{
+    color: rgb(185, 183, 183);
+    margin: 5px 0 0 200px;
+}
+
+#custom-input-cname,
+#custom-input-gst,
+#custom-input-cperson,
+#custom-input-cnumber,
+#custom-input-cemail{
+    height: 50px;
+    width: 80%;
+    margin: 5px 0 0 60px;
+}
+
+
+/* Responsive Styles */
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    #addcompany_div {
+        width: 95%; /* Adjust width for responsiveness */
+        margin: 30px auto; /* Center the div */
+        text-align: center; /* Center align button */
+    }
+}
+
+@media (max-width: 576px) {
+    #addcompany_div {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 20px auto; /* Center the div */
+        text-align: center; /* Center align button */
+    }
+    
+    .btn {
+        width: 100%; /* Make button full width */
+        margin-top: 10px; /* Add space between button and div */
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #add_enquiry_header {
+        margin: 10px 0 0 5%; /* Adjust margin for responsiveness */
+    }
+
+    #addnew_enquiry_div {
+        width: 95%; /* Adjust width for responsiveness */
+        margin: 30px auto; /* Center the div */
+    }
+
+    .addenquiry_inputs,
+    .addenquiry_inputs_gst,
+    .addenquiry_inputs_person,
+    .addenquiry_inputs_contact_number,
+    .addenquiry_inputs_city,
+    .addenquiry_inputs_state,
+    .addenquiry_inputs_enquiry_source,
+    .addenquiry_inputs_sector,
+    .addenquiry_inputs_stage,
+    .addenquiry_inputs_products,
+    .addenquiry_inputs_date,
+    .addenquiry_inputs_remarks {
+        width: 90%; /* Adjust width for responsiveness */
+        margin: 20px auto; /* Center the input */
+    }
+
+    #enquiry_table1 {
+        width: 90%; /* Adjust width for responsiveness */
+        margin: 10px auto; /* Center the table */
+    }
+
+    #inputdiv1{
+        width: 90%; /* Adjust width for responsiveness */
+        margin: 20px auto; /* Center the div */
+    }
+
+    #file_label {
+        margin: 20px 0; /* Adjust margin for responsiveness */
+    }
+
+    #add-enquiry-submit-btn {
+        width: 50%; /* Adjust width for responsiveness */
+        margin: 20px auto 70px; /* Center the button and add space at the bottom */
+    }
+}
+
+@media (max-width: 576px) {
+    .addenquiry_inputs,
+    .addenquiry_inputs_gst,
+    .addenquiry_inputs_person,
+    .addenquiry_inputs_contact_number,
+    .addenquiry_inputs_city,
+    .addenquiry_inputs_state,
+    .addenquiry_inputs_enquiry_source,
+    .addenquiry_inputs_sector,
+    .addenquiry_inputs_stage,
+    .addenquiry_inputs_products,
+    .addenquiry_inputs_date,
+    .addenquiry_inputs_remarks {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #enquiry_table1 {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #inputdiv1{
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #add-enquiry-submit-btn {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+

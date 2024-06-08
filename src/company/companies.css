@@ -1,0 +1,163 @@
+/* Keep the original styles for larger screens */
+
+#add-company-state{
+  
+   width: 690px;
+   margin: 0 0 0 60px;
+}
+
+#add-company-city{
+    width: 690px;
+    margin: 0 0 0 60px;
+}
+
+#companies_maindiv {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#companies_h4 {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline solid 2px blue;
+}
+#companies_search {
+    height: 60%;
+    width: 450px;
+    margin: 10px 20px 0 0;
+}
+
+#company_table {
+    width: 100%;
+}
+
+.company_row {
+    height: 50px;
+    border-bottom: solid 0.3px rgb(184, 182, 182);
+    text-align: center;
+}
+
+.company_edit_btn{
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    max-width: 5px 0 0 5px;
+    background-color: rgb(200, 200, 90);
+    transition: 0.5s;
+}
+.company_edit_view{
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    max-width: 5px 0 0 5px;
+    background-color: rgb(131, 131, 236);
+    transition: 0.5s;
+}
+.company_edit_del {
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    max-width: 5px 0 0 5px;
+    background-color: rgb(180, 94, 94);
+    transition: 0.5s;
+}
+
+.company_edit_btn:hover {
+    background-color: yellow;
+}
+
+.company_edit_view:hover {
+    background-color: blue;
+}
+
+.company_edit_del:hover {
+    background-color: red;
+}
+#company_grid{
+    display: none;
+}
+
+/* Add responsive styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+    /* Adjust the width of the input for smaller screens */
+
+    #companies_h4{
+        display: none;
+    }
+    #company_grid{
+        display: block;
+        height: 300px;
+        width: 90%;
+        margin-left: 7%;
+        margin-top: 30px;
+        border: none;
+        box-shadow: 10px 10px 10px grey;
+        
+    }
+    #spanid{
+       margin-left: 110px;
+    }
+    #spangst{
+        margin-left: 95px;
+    }
+    #spanemail{
+        margin-left: 20px;
+    }
+    .company_edit_btn2{
+        height: 40px;
+        width: 70px;
+        border: none;
+        border-radius: 5px;
+        max-width: 5px 0 0 5px;
+        margin-left: 100px;
+        background-color: rgb(200, 200, 90);
+        transition: 0.5s;
+    }
+    .company_edit_view2{
+        height: 40px;
+        width: 70px;
+        border: none;
+        border-radius: 5px;
+        max-width: 5px 0 0 5px;
+        background-color: rgb(131, 131, 236);
+        margin-left: 95px;
+        margin-top: 5px;
+        transition: 0.5s;
+    }
+    .company_edit_del2 {
+        height: 40px;
+        width: 70px;
+        border: none;
+        border-radius: 5px;
+        max-width: 5px 0 0 5px;
+        background-color: rgb(180, 94, 94);
+        margin-left: 85px;
+        margin-top: 5px;
+        transition: 0.5s;
+
+    }
+    #companies_search {
+        width: 100%;
+        max-width: none;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    /* Adjust button width and margins for smaller screens */
+
+
+    #company_table{
+        display: none;
+    }
+}
+
+
+

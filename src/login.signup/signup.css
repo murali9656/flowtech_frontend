@@ -1,0 +1,142 @@
+/* Default styles */
+#signup_div {
+    width: 100%;
+    max-width: 830px;
+    margin: 50px auto 0;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+}
+
+#div_for_alreadyaccount {
+    margin: 50px auto 0;
+    max-width: 800px;
+    height: 50px;
+}
+
+#alreadyaccount_span {
+    float: right;
+    margin-right: 20px;
+}
+
+#link_to_login {
+    padding: 5px 20px;
+    background-color: rgb(41, 41, 182);
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#link_to_login:hover {
+    background-color: rgb(98, 98, 242);
+    box-shadow: 1px 1px 10px black;
+}
+
+#signup_arrow {
+    font-size: xx-large;
+    color: rgb(41, 41, 182);
+}
+
+#register_span {
+    font-size: x-large;
+    color: rgb(41, 41, 182);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.signup_label {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.signu_input {
+    margin-left: 100px;
+    width: calc(100% - 200px); /* Adjust padding from left and right */
+    padding: 7px;
+    border: solid 0.5px rgb(170, 169, 169);
+    border-radius: 5px;
+}
+
+#signu_confirm_password::placeholder {
+    color: grey;
+}
+
+#signup_btn {
+    padding: 5px 25px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(41, 41, 182);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+#signup_btn:hover {
+    background-color: rgb(98, 98, 242);
+    box-shadow: 1px 1px 10px black;
+}
+
+.hide_show_btn {
+    padding: 7px 10px;
+    margin-left: 10px;
+    background-color: rgb(41, 41, 182);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+.password_validation {
+    margin-left: 100px;
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    #signup_div {
+        width: 90%;
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 7px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+
+    .signup_label {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+    .signu_input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: solid 0.5px rgb(170, 169, 169);
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .hide_show_btn, #signup_btn {
+        padding: 10px;
+        margin: 10px 0 20px;
+        width: 100%;
+        background-color: rgb(41, 41, 182);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .password_validation {
+        margin: 10px 0;
+        text-align: center;
+        color: red;
+    }
+}
